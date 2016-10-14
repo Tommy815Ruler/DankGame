@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<!-- saved from url=(0025)https://pixlr.com/editor/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="./jamandhamdank_files/6f4b272de9"></script><script src="./jamandhamdank_files/nr-995.min.js.download"></script><script type="text/javascript" id="veConnect" async="" src="./jamandhamdank_files/capture-apps-4.18.1.js.download"></script><script type="text/javascript" async="" src="./jamandhamdank_files/ec.js.download"></script><script async="" src="./jamandhamdank_files/analytics.js.download"></script><script src="./jamandhamdank_files/fbevents.plugins.identity.js.download" async=""></script><script type="text/javascript" async="" src="./jamandhamdank_files/gtm.js.download"></script><script type="text/javascript" async="" src="https://s.adroll.com/j/roundtrip.js"></script><script type="text/javascript" async="" src="./jamandhamdank_files/fbevents.js.download"></script><script type="text/javascript" async="" src="./jamandhamdank_files/easyXDM.dyn.min.js.download"></script><script async="" type="text/javascript" src="./jamandhamdank_files/gpt.js.download"></script><script type="text/javascript" async="" src="./jamandhamdank_files/analytics.min.js.download"></script><script type="text/javascript" async="" id="widget_script" src="./jamandhamdank_files/embed_widget.js.download"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"6f4b272de9","applicationID":"7914502","transactionName":"IVlYFkELXVsERUtTRBJFGQdXDUVYEw==","queueTime":0,"applicationTime":4,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!d){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[y[n]];return f&&f.push([b,n,r,i]),i}}function p(e,t){w[e]=v(e).concat(t)}function v(e){return w[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var w={},y={},b={on:p,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a};return b}function i(){return new r}function a(){d=!0,s=p.backlog={}}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o(),d=!1;p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=b.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(w,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,w={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-995.min.js"},y=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),b=t.exports={offset:a(),origin:m,features:{},xhrWrappable:y};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+<title>Online Photo Editor | Pixlr Editor | Autodesk Pixlr</title>
+<meta content="Pixlr Editor is a robust browser photo editor, for all your editing needs. Have full control over your images, including layers and effects." name="Description">
+<meta content="photo, photograph, picture, free, opacity, alpha, edit, editing, adjustments, online, flickr, facebook, photobucket, camera, digital, image, red-eye, fix, photoshop, gimp, photoshop" name="Keywords">
+<script src="./jamandhamdank_files/jquery.min.js.download"></script>
+<script src="https://c.amazon-adsystem.com/aax2/amzn_ads.js" type="text/javascript"></script>
+<script>
+  //<![CDATA[
+    if (top != self) {
+      - if should_redirect?
+        top.location.replace(document.location);
+    }
+  //]]>
+</script>
+
+<script>
+  //<![CDATA[
+    try {
+        amznads.getAds('3058');
+    } catch(e) { /*ignore*/ }
+  //]]>
+</script>
+<style>
+  /*<![CDATA[*/
+    html, body { margin:0px; padding:0px; background: #fff; overflow: hidden; height: 100%; }
+    body { padding-right: 340px; }
+    
+    #noflash {
+      padding-top:30px;
+      margin:0 auto;
+      width:600px;
+    }
+    
+    #flash {
+      float: left;
+      width: 100%;
+      height: 100%;
+    }
+    
+    .ad-wrap {
+      position: absolute;
+      display: block;
+      right: 0;
+      height: 96%;
+      padding: 2%;
+      background: #444444;
+    }
+    
+    .adslot {
+      margin-bottom: 20px;
+    }
+    
+    @media only screen and (max-width: 1023px) {
+      body { padding-right: 0px; !important }
+      .ad-wrap { display: none; }
+      .adslot { display: none; }
+    }
+    
+    @media only screen and (max-height: 890px) {
+      .ad-wrap .adslot:last-child {
+        display: none;
+      }
+      .sstk_widget{
+        display: none;
+      }
+    }
+  /*]]>*/
+</style>
+
+<script src="./jamandhamdank_files/pubads_impl_100.js.download" async=""></script><link rel="prefetch" href="https://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html"></head>
+<body>
+<div id="flash" style="height: 589px;">
+<noscript>
+Pixlr editor requires javascript.
+</noscript>
+<script>
+  //<![CDATA[
+    var version = 0;
+    if (navigator.plugins != null && navigator.plugins.length > 0 && navigator.plugins["Shockwave Flash"]) {
+      version = navigator.plugins["Shockwave Flash"].description.split(" ")[2].split(".")[0];
+    } else {
+      try {
+        var axo = new ActiveXObject("ShockwaveFlash.ShockwaveFlash.7");
+        version = axo.GetVariable("$version").split(" ")[1].split(",")[0];
+      } catch (e) {}
+    }
+    if(version >= 10) {
+      RunContent('width','100%','height','100%','src','https://cdn4.pixlr.com/editor/editor.swf?name=&email=&loc=en',
+      'movie','https://cdn4.pixlr.com/editor/editor.swf?name=&email=&loc=en','quality','high','wmode',
+      'window','devicefont','false','id','editor','bgcolor','#606060',
+      'name','editor','menu','false','allowFullScreen', 'true','allowScriptAccess','always','allowFullScreenInteractive','true');
+    } else {
+      document.write("<div id='noflash'>You need Flash player 10 or better to be able to use Pixlr Editor - <a href='https://get.adobe.com/flashplayer'>Get Flash Player</a></div>");
+    }
+    function Generateobj(objAttrs,params,embedAttrs) {
+      var isIE = (navigator.appVersion.indexOf("MSIE") != -1)?true : false;
+      var isWin = (navigator.appVersion.toLowerCase().indexOf( "win" ) != -1 )?true : false;
+      var isOpera = ( navigator.userAgent.indexOf( "Opera" ) != -1 )?true : false;
+      var str='';
+      if( isIE&&isWin&&!isOpera ) {
+        str+='<object ';
+        for( var i in objAttrs ) {
+          str += i + '="'+objAttrs[i]+'" ';
+        }
+        str+='>';
+        for( var i in params ) {
+          str+='<param name="'+i+'" value="'+params[i]+'"/>';
+        }
+        str+='</object>';}else{str+='<embed ';
+        for( var i in embedAttrs ) {
+          str+=i+'="'+embedAttrs[i]+'" ';
+        }
+        str+=' />';
+      }
+      document.write(str);
+    }
+    function RunContent() {
+      var ret=GetArgs(arguments,"movie","clsid:d27cdb6e-ae6d-11cf-96b8-444553540000","application/x-shockwave-flash");
+      Generateobj( ret.objAttrs,ret.params,ret.embedAttrs );
+    }
+    function GetArgs( args,srcParamName,classid,mimeType ) {
+      var ret=new Object();
+      ret.embedAttrs=new Object();
+      ret.params=new Object();
+      ret.objAttrs=new Object();
+      for( var i = 0; i < args.length; i=i+2 ) {
+        var currArg=args[i].toLowerCase();
+        switch(currArg) {
+          case "src":
+          case "movie":
+            ret.embedAttrs["src"]=args[i+1];
+            ret.params[srcParamName] = args[i+1];
+          break;
+          case "id":
+            ret.objAttrs[args[i]] = args[i+1];
+          break;
+          case "width":
+          case "height":
+          case "name":
+          case "tabindex":
+            ret.embedAttrs[args[i]] = ret.objAttrs[args[i]] = args[i+1];
+          break;
+          default:
+            ret.embedAttrs[args[i]] = ret.params[args[i]] = args[i+1];
+      }
+    }
+    ret.objAttrs["classid"] = classid;
+    if(mimeType)ret.embedAttrs["type"] = mimeType;
+      return ret;
+    }
+  //]]>
+</script><embed width="100%" height="100%" src="https://cdn4.pixlr.com/editor/editor.swf?name=&amp;email=&amp;loc=en" quality="high" wmode="window" devicefont="false" bgcolor="#606060" name="editor" menu="false" allowfullscreen="true" allowscriptaccess="always" allowfullscreeninteractive="true" type="application/x-shockwave-flash">
+
+<script>
+  //<![CDATA[
+    function CallBack(b,a){document.getElementById("editor")[b](a)}
+    function Auth(a){({facebook:function(){var c="https://graph.facebook.com/oauth/authorize?client_id=126974090689377&redirect_uri=http://pixlr.com/facebook/auth&scope=publish_stream,user_photos,offline_access&display=popup",b=window.open(c,"auth_window","location=0,status=0,scrollbars=0,titlebar=0,resizable=0,menubar=0,directories=0,width=600,height=400")},flickr:function(){var c="https://flickr.com/services/auth/?api_key=3c39be9d9b0b84b80e1852a38ec9179a&perms=delete&api_sig=a75262d1a6b7cb27a9daf8db8813d4cb",b=window.open(c,"auth_window","location=0,status=0,scrollbars=0,titlebar=0,resizable=0,menubar=0,directories=0,width=880,height=600")},picasa:function(){var c="https://www.google.com/accounts/AuthSubRequest?scope=https%3A%2F%2Fpicasaweb.google.com%2Fdata%2F&session=1&secure=0&next=http://pixlr.com/picasa/auth",b=window.open(c,"auth_window","location=0,status=0,scrollbars=0,titlebar=0,resizable=0,menubar=0,directories=0,width=800,height=600")}})[a]()};
+    function Clipboard(){var m=document.getElementById("mole"),obj=frame(m).getElementById("clipboard");if(obj==null){m.src="clipboard.htm";}else{CallBack("clipboard",obj.GetClipboardImage());}}
+    function frame(iframe){return(iframe.contentDocument||iframe.contentWindow.document||iframe.document);}
+    function Login(a){({google:function(){window.open("http://pixlr.com/openid/auth","login_window","location=0,status=0,scrollbars=0,titlebar=0,resizable=0,menubar=0,directories=0,width=600,height=400"); }})[a]()}
+  //]]>
+</script>
+
+<iframe frameborder="0" height="10" id="mole" style="position: absolute; z-index: 4; left: -50px" width="10" src="./jamandhamdank_files/saved_resource.html"></iframe>
+<script>
+  //<![CDATA[
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  //]]>
+</script><script src="./jamandhamdank_files/ga.js.download" type="text/javascript"></script>
+<script>
+  //<![CDATA[
+    function buildUrl(base, args) {
+      if (!args) return base;
+      var res = [];
+      for (var key in args) {
+        if (args.hasOwnProperty(key)) {
+          res.push(key + '=' + encodeURI(args[key]));
+        }
+      }
+      return base + '?' + res.join('&');
+    }
+    function share(url, name, desc, service) {
+      if (service === "twitter") {
+        var u = buildUrl("https://twitter.com/intent/tweet", {
+          via: "pixlr",
+          text: desc
+        });
+        window.open(u, "pop", "scrollbars=0, titlebar=0, status=0, menubar=0, width=550, height=430");
+      } else {
+        var u = buildUrl("/fb_presave_expr/", {
+          url: url,
+          desc: desc
+        });
+        window.open(u, "pop", "scrollbars=0,titlebar=0,status=0,menubar=0,width=600,height=400");
+      }
+    }
+    function viewportSize() {
+      var test = document.createElement( "div" );
+      test.style.cssText = "position: fixed;top: 0;left: 0;bottom: 0;right: 0;";
+      document.documentElement.insertBefore( test, document.documentElement.firstChild );
+      var dims = { width: test.offsetWidth, height: test.offsetHeight };
+      document.documentElement.removeChild( test );
+      return dims;
+    }
+    window.onload=function() {
+      var flash = document.getElementById("flash");
+      var viewport = viewportSize();
+      flash.style.height=viewport.height + "px";
+    }
+    var adVisible = false;
+    window.onresize=function() {
+      var viewport = viewportSize();
+      document.getElementById("flash").style.height=viewport.height + "px";
+      if( adVisible == false && viewport.width > 1023 ){
+        injectAds(viewport);
+      }
+    }
+    function initDFP() {
+      var googletag = googletag || {};
+      googletag.cmd = googletag.cmd || [];
+      (function() {
+        var gads = document.createElement('script');
+        gads.async = true;
+        gads.type = 'text/javascript';
+        var useSSL = 'https:' == document.location.protocol;
+        gads.src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
+        var node = document.getElementsByTagName('script')[0];
+        node.parentNode.insertBefore(gads, node);
+      })();
+      return googletag;
+    }
+    // Amazon Ads
+    function fetchAmazon() {
+      try {
+        amznads.setTargetingForGPTAsync('amznslots');
+      } catch(e) { /*ignore*/ }
+    }
+    // Injects add's into Ad Slots (div's) if screensize is 1024px or higher.
+    function injectAds() {
+      var dfpslots = $(".ad-wrap").find(".adslot").filter(":visible"), i = 0,
+      slot = new Array();
+      if (dfpslots.length) {
+        fetchAmazon(); //Fetch amazon ad's before we inject to visible ad spaces
+        googletag.cmd.push(function() {
+          $(dfpslots).each(function() {
+            slot[i] = googletag.defineSlot('/1022072/' + $(this).attr('data-dfp'), [[$(this).width(), $(this).height()]], $(this).attr('id')).addService(googletag.pubads());
+            if ($(this).attr('data-cids')) slot[i].set("adsense_channel_ids", $(this).attr('data-cids'));
+            i++
+          });
+          //googletag.pubads().enableSingleRequest(); // Breaks channel reporting
+          googletag.enableServices();
+          $(dfpslots).each(function(){
+            googletag.display($(this).attr('id'));
+          });
+          adVisible = true;
+        });
+      }
+    }
+  //]]>
+</script>
+<!-- / Warning on close (JavaScript) -->
+<script>
+  //<![CDATA[
+    window.addEventListener("beforeunload", function (e) {
+      var confirmationMessage = "If you leave this page, all work will be lost!";
+    
+      (e || window.event).returnValue = confirmationMessage;
+      return confirmationMessage;
+    });
+  //]]>
+</script>
+<!-- / Google analytics -->
+<!-- / Google Analytics JS -->
+<script>
+  //<![CDATA[
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  //]]>
+</script><script src="./jamandhamdank_files/ga.js.download" type="text/javascript"></script>
+<script>
+  //<![CDATA[
+    var pageTracker = _gat._getTracker("UA-1830856-4");
+    pageTracker._initData();
+    pageTracker._trackPageview();
+    $(document).ready(function() {
+      // Initialize Google Double Click
+      googletag = initDFP();
+      injectAds();
+    });
+  //]]>
+</script>
+<script>
+  //<![CDATA[
+    window._wdata = window._wdata || [];_wdata.push({widget_id: '559fdac4ef2357f7031e02f9', cdn_prefix: '//d3qrz9uuaxc8ej.cloudfront.net', width: '300', height: '300', src: '//widget.shutterstock.com/widget/559fdac4ef2357f7031e02f9', border: true, url: document.URL});(function () {if (typeof (widget) !== 'undefined') return;var nwjs = document.createElement('script'); nwjs.type = 'text/javascript'; nwjs.async = true;nwjs.id = 'widget_script';nwjs.src = '//widget.shutterstock.com/content/js/embed_widget.js';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(nwjs, s);})();
+  //]]>
+</script>
+
+<!-- / Segment -->
+<script type="text/javascript">
+  (function(){
+
+    // Create a queue, but don't obliterate an existing one!
+    var analytics = window.analytics = window.analytics || [];
+
+    // If the real analytics.js is already on the page return.
+    if (analytics.initialize) return;
+
+    // If the snippet was invoked already show an error.
+    if (analytics.invoked) {
+      if (window.console && console.error) {
+        console.error('Segment snippet included twice.');
+      }
+      return;
+    }
+
+    // Invoked flag, to make sure the snippet
+    // is never invoked twice.
+    analytics.invoked = true;
+
+    // A list of the methods in Analytics.js to stub.
+    analytics.methods = [
+      'trackSubmit',
+      'trackClick',
+      'trackLink',
+      'trackForm',
+      'pageview',
+      'identify',
+      'group',
+      'track',
+      'ready',
+      'alias',
+      'page',
+      'once',
+      'off',
+      'on'
+    ];
+
+    // Define a factory to create stubs. These are placeholders
+    // for methods in Analytics.js so that you never have to wait
+    // for it to load to actually record data. The `method` is
+    // stored as the first argument, so we can replay the data.
+    analytics.factory = function(method){
+      return function(){
+        var args = Array.prototype.slice.call(arguments);
+        args.unshift(method);
+        analytics.push(args);
+        return analytics;
+      };
+    };
+
+    // For each of our methods, generate a queueing stub.
+    for (var i = 0; i < analytics.methods.length; i++) {
+      var key = analytics.methods[i];
+      analytics[key] = analytics.factory(key);
+    }
+
+    // Define a method to load Analytics.js from our CDN,
+    // and that will be sure to only ever load it once.
+    analytics.load = function(key){
+      // Create an async script element based on your key.
+      var script = document.createElement('script');
+      script.type = 'text/javascript';
+      script.async = true;
+      script.src = ('https:' === document.location.protocol
+        ? 'https://' : 'http://')
+        + 'cdn.segment.com/analytics.js/v1/'
+        + key + '/analytics.min.js';
+
+      // Insert our script next to the first script element.
+      var first = document.getElementsByTagName('script')[0];
+      first.parentNode.insertBefore(script, first);
+    };
+
+    // Add a version to keep track of what's in the wild.
+    analytics.SNIPPET_VERSION = '3.0.1';
+
+    // Load Analytics.js with your key, which will automatically
+    // load the tools you've enabled for your account. Boosh!
+    analytics.load('BZhckyCx5JYsaUCucLeqashIWIWnVCLh');
+
+    // Make the first page call to load the integrations. If
+    // you'd like to manually name or tag the page, edit or
+    // move this call however you'd like.
+    analytics.page();
+
+  })();
+</script>
+
+</div>
+<div class="ad-wrap">
+<div class="adslot" data-dfp="px_editor_300x600" id="#div-gpt-ad-1418238186889-0" style="width: 300px; height: 600px"></div>
+<div class="adslot" data-dfp="px_editor_300x250" id="#div-gpt-ad-1418238025581-0" style="width: 300px; height: 250px;"></div>
+</div>
+
+
+<script type="text/javascript" id="">if(mixpanelVars.isLoggedIn){var _fs_debug=!1,_fs_host="www.fullstory.com",_fs_org="iGH";window._fs_is_outer_script=!0;(function(k,g,l,h,e,c,a,f){a=k[l]=function(d,b){a.q?a.q.push([d,b]):a._api(d,b)};a.q=[];c=g.createElement(h);c.async=1;c.src="[https://"+_fs_host+"/s/fs.js]https://"+_fs_host+"/s/fs.js";f=g.getElementsByTagName(h)[0];f.parentNode.insertBefore(c,f);a.identify=function(d,b){a(e,{uid:d});b&&a(e,b)};a.setUserVars=function(a){FS(e,a)};a.setSessionVars=function(a){FS("session",a)};a.setPageVars=
+function(a){FS("page",a)}})(window,document,"FS","script","user");FS.identify(mixpanelVars.memberId,{displayName:mixpanelVars.memberId,email:mixpanelVars.email})};</script><script type="text/javascript" id="" src="./jamandhamdank_files/tag.js.download"></script><script type="text/javascript" id="">(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b;a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)};a[b].l=1*new Date;c=e.createElement(f);d=e.getElementsByTagName(f)[0];c.async=1;c.src=g;d.parentNode.insertBefore(c,d)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create","UA-1830856-13","auto","devtracker");ga("devtracker.require","ec");ga("devtracker.send","pageview");</script><iframe id="veUtilsIframe" width="0" height="0" style="visibility: hidden; display: none; border: none;" src="./jamandhamdank_files/saved_resource(1).html"></iframe><iframe id="1476394739193" src="./jamandhamdank_files/iframeStorage.html" style="display: none;"></iframe></body></html>
