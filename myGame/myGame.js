@@ -1,24 +1,29 @@
 /*global Phaser*/
 
-var game = new Phaser.Game(1350, 600, Phaser.AUTO, '', { preload: preload, create: create, update: update });
+var game = new Phaser.Game(1366, 600, Phaser.AUTO, '', { preload: preload, create: create, update: update });
 var platforms;
 var player;
 var cursors;
 var stars;
 var scoreText = 0;
 var score = 0;
+var audio = new Audio('assets/moosic.mp3');
+    audio.play();
 function preload() {
-    game.load.image('sky','assets/sky.png');
+    game.load.image('sky','assets/skyv2.png');
     game.load.image('ground','assets/platform.png');
     game.load.image('star','assets/star.png');
     game.load.spritesheet('dude','assets/dude.png',32,48);
-    game.load.image('jamandham','assets/dankmemes.png')
-    game.load.image('jamespoo','assets/jamandhamdank.png')
+    game.load.image('jamandham','assets/dankmemes.png');
+    game.load.image('jamespoo','assets/jamandhamdank.png');
+    game.load.image('tree','assets/tree.png');
 }
 
 function create() {
-    game.add.sprite(0,0,'jamandham');
-    game.add.sprite(1200,0,'sky');
+    game.add.sprite(0,0,'sky');
+    game.add.sprite(800,0,'sky');
+    game.add.sprite(911,410,'tree');
+    game.add.sprite(75,410,'tree');
     platforms = game.add.group();
     platforms.enableBody = true;
     var ground = platforms.create(0, game.world.height - 64, 'ground');
@@ -28,7 +33,7 @@ function create() {
     ledge.body.immovable = true;
     ledge.scale.setTo(0.3,0.5);
     game.physics.startSystem(Phaser.Physics.ARCADE);
-    player = game.add.sprite(400, game.world.height - 1520, 'dude');
+    player = game.add.sprite(525, game.world.height - 1520, 'dude');
     game.physics.arcade.enable(player);
     player.body.bounce.y = 0.3;
     player.body.gravity.y = 950;
@@ -70,4 +75,6 @@ function collectStar(player,star){
     star.kill();
     score++;
     scoreText.text = "Score:" + score;
+    var jamandham = game.add.sprite(0,0,'jamandham');
+    setTimeout(function(){jamandham.kill()},1500);
 }
